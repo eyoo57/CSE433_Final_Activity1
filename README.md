@@ -1,2 +1,3 @@
 # CSE433_Final_Activity1
 This repository contains the executable and source files for Activity 1 of our final project.
+If you encounter errors due to importing the executable into Ghidra, try compiling the source code at activity1.c on your own machine, and import your own executable. The executable should have been compiled using GNU gcc, but it was on a device using Aarch64 architecture.
