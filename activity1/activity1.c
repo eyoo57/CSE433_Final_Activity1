@@ -12,7 +12,7 @@ void other_func(char *thingy) {
 }
 
 
-int main(int argc, char *argv[]) {
+int main(int argc, char **argv) {
 	if (argc != 2) {
         	other_func(argv[0]);
         	return 1;
